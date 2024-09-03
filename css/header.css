@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x:hidden;
+}
+li{
+    list-style-type: none;
+}
+
+nav{
+    padding: 8px;
+    display: flex;
+    position: relative;
+    height: 18%;
+    width: 100vw;
+    align-items: center;
+}
+
+nav ul{   
+    display: flex;
+    margin-right: 4rem;
+}
+
+nav img{
+    width: 8rem;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover{
+    border-top-color: orangered ;
+    border-bottom-color: orangered;
+    color: orangered;
+}
